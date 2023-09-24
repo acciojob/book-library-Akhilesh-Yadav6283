@@ -23,6 +23,7 @@ body{
 .image{
 	text-align:center;
 	line-height:0px;
+	background-color:rgb(46, 204, 113);
 }
 h2{
 	line-height:0px;
@@ -39,7 +40,7 @@ p{
 .green-box{
 	width:90%;
 	line-height:5px;
-	background-color:#2ecc71;
+	background-color:rgb(46, 204, 113);
 	padding:10px;
 	color:white;
 	text-align:center;
