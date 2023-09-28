@@ -20,11 +20,14 @@ h1{
 	text-align:center;
 	border-radius:10px;
 	border-top:none;
+background:#f8f8f8;
+	
 }
 .image{
 	padding-top:20px;
 	justify-content:center;
 	text-align:center;
+	background:rgb(46, 204, 113);
 }
 .author{
 	color:#777777;
