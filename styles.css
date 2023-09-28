@@ -1,45 +1,34 @@
 body{
-	display:flex;
-	justify-content:center;
-	background:#f8f8f8;
-	font-family:arial;
+	background-color: #f8f8f8;
 }
 .book-library{
-	width:90%;
-	background:#ffffff;
+	background-color:#ffffff;
 	border-radius:10px;
-	border-top:none;
-	box-shadow:0px 0px 5px gray;
-}
-.book{
-background:#f8f8f8;
+	box-shadow:0px 0px 10px gray;
+	font-family:arial;
 }
 h1{
-	padding:20px;
-	margin-top:0px;
 	text-align:center;
-	border-radius:10px;
-	border-top:none;
-background:#f8f8f8;
+	padding:10px;
+	background-color: #f8f8f8;
 	
 }
-.image{
-	padding-top:20px;
-	justify-content:center;
+.book{
+	background-color: #f8f8f8;
+	padding:30px;
+	margin-top:20px;
+}
+.book img{
+	display:block;
+	margin:0px  auto;
+}
+.book p{
+ color:	#777777;
+}
+.book> div{
+	background-color:#2ecc71;
 	text-align:center;
-	background-color:rgba(0, 0, 0, 0);
-}
-.author{
-	color:#777777;
-	margin-left:40px;
-}
-.price-block{
-	width:90%;
 	color:white;
-	background:#2ecc71;
-	text-align:center;
-	margin-left:40px;
-}
-h2{
-	margin-left:40px;
+	padding:10px;
+	border-radius:5px;
 }
